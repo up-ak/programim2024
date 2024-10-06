@@ -1,0 +1,31 @@
+Bazat e Programimit - Java 2
+
+1. Përsëritje:
+   - Programi: varg urdhërash që ekzekutohen nga kompjuteri
+   - Gjuha programuese: sintaksa dhe rregullat për shkruarjen e programeve
+   - main: pika hyrëse e programit
+
+2. cout dhe cin:
+   - cout: përdoret për të shfaqur informacion në ekran
+   - cin: përdoret për të lexuar të dhëna nga tastiera
+   - Sintaksa: cout << variabla; cin >> variabla;
+   - endl: perdoret per te vendosur nje rresh te ri
+
+3. Tipet dhe Variablat:
+   - Tipet numerike: int, double
+   - Tipi i vërtetësisë: bool
+   - Tipet tekstuale: char, string
+   - Deklarimi i variablave: <tipi> <emri> [= <vlera fillestare>];
+
+4. Operatorët:
+   - Operatori i shoqërimit: =
+   - Operatorët aritmetikor: +, -, *, /, % (modulo)
+   - Operatorët shkurtesë: +=, -=, *=, /=, %=, ++, --
+
+5. Konstantet:
+   - Deklarimi: const <tipi> <emri> = <vlera>;
+
+6. Shembuj praktikë: 
+   - Llogaritja e perimetrit dhe sipërfaqes së drejtkëndëshit
+   - Llogaritja e mesatares te dy numrave - tipi double
+  
