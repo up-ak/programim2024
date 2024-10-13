@@ -1,0 +1,27 @@
+Bazat e Programimit - Java 3
+
+1. Perseritje:
+   - Mesatarja e dy numrave
+   - Tipet: Lloji i te dhenes (tekst, numer, bool, etj.)
+   - Variablat: Mundesojne ruajtjen e te dhenave ne memorie
+
+2. Formatimi dhe Shtypja e Formatuar:
+   - Libraria <iomanip> per manipulimin e daljes ne cout
+   - https://docs.google.com/document/d/1OFQTGWMDz_VIdM27gZXmdCIdPrwCBZ6JFL9wT070CMU/edit?usp=sharing
+
+3. Shprehjet e Vertetesise - bool:
+   - Operatoret e krahasimit: ==, >, >=, <, <=
+   - Operatoret logjik: && (AND), || (OR), ! (NOT)
+   - Perparesia e operatoreve logjik: []
+     1) Negacioni
+     2) AND
+     3) OR
+
+4. Detyra Praktike:
+   - Shkembimi i vlerave mes dy variablave
+   - Shfaqja e studenteve ne kete forme:
+         Emri...................Mosha
+         Arben.....................25
+         Besa......................31
+         Dritan....................19
+         Elona.....................28
