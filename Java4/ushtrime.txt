@@ -1,0 +1,27 @@
+Bazat e Programimit - Java 4
+
+1. Kushtezimet:
+   - Sintaksa baze: if (kushti) { blloku; }
+   - Kushtezimi me dy degezime: 
+     if (kushti) { 
+       blloku1; 
+     } else { 
+       blloku2; 
+     }
+   - Kushtezimi me shume dege: 
+     if (kushti1) {
+       ...
+     } else if (kushti2) {
+       ...
+     } else {
+       ...
+     }
+
+2. Operatori ternar: y = kushti ? shprehja1 : shprehja2;
+
+3. Detyra Praktike:
+   1 - Llogaritja e vleres absolute
+   2 - Krahasimi i numrave (a & b) - barbart, me e madhe, me e vogel
+   3 - Maksimumi i tre numrave
+   4 - Te tregohe se a eshte numri i lexuar cift apo tek - if(x%2==0) {cift}
+   5 - Caktimi i notes bazuar ne pike
