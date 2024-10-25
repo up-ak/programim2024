@@ -1,0 +1,50 @@
+Bazat e Programimit - Java 5
+
+if (kushti) { 
+  blloku1; 
+} else { 
+  blloku2; 
+}
+
+1. Operatori ternar (?)
+y = kushti ? shprehja1 : shprehja2
+
+Shembull:
+vlera_absolute = (x >= 0 ? x : -x);
+
+2. Urdhëri switch
+switch (vlera) {
+    case 1: blloku1; break;
+    case 2: blloku2; break;
+    case 3: blloku3; break;
+    default: blloku3; break;
+}
+
+3. Urdhëri goto
+Bën kërcim të pa-kushtëzuar të ekzekutimit.
+
+Shembull:
+    int count = 1;
+start:
+    cout << "Count: " << count << endl;
+    count++;
+    if (count <= 5) {
+        goto start;
+    }
+
+4. Unaza while:
+while (kushti) {
+  blloku;
+}
+
+3. Detyra Praktike:
+  1 - Të lexohet nga tastiera një numër i plotë x. 
+  Të llogaritet dhe të shfaqet vlera y sipas funksionit:
+    y = { -2*x + 5   kur x <= 4
+        { x - 3     kur x > 4
+  2. Kalkulatori i thjeshte:
+    Krijoni nje program qe lexon dy numra dhe nje operator (+, -, *, /) nga perdoruesi.
+    Perdorni switch per te kryer operacionin e duhur dhe shfaqni rezultatin.
+  3. Gjeneratori i tabelave te shumezimit:
+    Shkruani nje program qe gjeneron tabelen e shumezimit per nje numer te caktuar.
+    Perdorni goto per te llogaritur dhe shfaqur rezultatet nga 1 x n deri ne 10 x n.

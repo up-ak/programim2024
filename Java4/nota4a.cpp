@@ -3,12 +3,35 @@ using namespace std;
 
 int main()
 {
-    // lexo piket ne provim
-    // nese piket jane >= 70, shfaq - Nota 8
-    // nese piket jane >= 80, shfaq - Nota 9
-    // nese piket jane >= 90, shfaq - Nota 10
-    // nese piket jane >= 50, shfaq - Nota 6
-    // nese piket jane >= 60, shfaq - Nota 7
+    int piket;
+
+    cout << "Jepni piket: ";
+    cin >> piket;
+
+    if (piket >= 90)
+    {
+        cout << "Nota: 10" << endl;
+    }
+    else if (piket >= 80)
+    {
+        cout << "Nota: 9" << endl;
+    }
+    else if (piket >= 70)
+    {
+        cout << "Nota: 8" << endl;
+    }
+    else if (piket >= 60)
+    {
+        cout << "Nota: 7" << endl;
+    }
+    else if (piket >= 50)
+    {
+        cout << "Nota: 6" << endl;
+    }
+    else
+    {
+        cout << "Nota: 5" << endl;
+    }
 
     return 0;
 }
