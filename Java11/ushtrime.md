@@ -60,7 +60,7 @@ int rezultati = katrori(5);  // rezultati = 25
 // Deklarimi
 int shuma(int a, int b);
 
-// Definimi
+// Definimi/ Impelementimi
 int shuma(int a, int b) {
     return a + b;
 }
